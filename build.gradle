@@ -43,6 +43,10 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
+
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf:2.2.2.RELEASE"
+    compile "org.thymeleaf:thymeleaf:3.0.9.RELEASE"
+    compile "org.thymeleaf:thymeleaf-spring4:3.0.9.RELEASE"
 }
 
 application {
